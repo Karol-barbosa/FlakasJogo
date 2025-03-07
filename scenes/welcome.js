@@ -10,9 +10,9 @@ export class WelcomeScene extends Phaser.Scene {
 
     preload() {
         // Carrega as imagens que vão ser usadas nesta cena
-        this.load.image("back", "../assets/Background.png");
-        this.load.image("computador", "../assets/computador_paisagem.png");
-        this.load.image("play", "../assets/botao_play.png");
+        this.load.image("back", "assets/Background.png");
+        this.load.image("computador", "assets/computador_paisagem.png");
+        this.load.image("play", "assets/botao_play.png");
     }
 
     create() {

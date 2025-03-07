@@ -21,12 +21,12 @@ export class GameScene extends Phaser.Scene {
 
     // Carrega as imagens e spritesheets necessárias para o jogo
     preload() {
-        this.load.image("tiled", "../assets/mapp.png");
-        this.load.tilemapTiledJSON('map', '../assets/mapa.json');
-        this.load.image('back', '../assets/Background.png');
-        this.load.spritesheet("grace_sprite", "../assets/spritesheetGrace.png", { frameWidth: 64, frameHeight: 64 });
-        this.load.image('cabeca', '../assets/cabecaf.png');
-        this.load.image('over', '../assets/gameover.png');
+        this.load.image("tiled", "assets/mapp.png");
+        this.load.tilemapTiledJSON('map', 'assets/mapa.json');
+        this.load.image('back', 'assets/Background.png');
+        this.load.spritesheet("grace_sprite", "assets/spritesheetGrace.png", { frameWidth: 64, frameHeight: 64 });
+        this.load.image('cabeca', 'assets/cabecaf.png');
+        this.load.image('over', 'assets/gameover.png');
         this.load.audio('som', 'assets/musicajogo.mp3');
 
       

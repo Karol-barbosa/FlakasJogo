@@ -11,10 +11,10 @@ export class Gameover extends Phaser.Scene {
     
     preload() {
         // Carrega a imagem de fundo 
-        this.load.image("perdeu", "../assets/gameover.png");
+        this.load.image("perdeu", "assets/gameover.png");
 
         // Carrega a imagem do botão enter
-        this.load.image("enter", "../assets/enter.png");
+        this.load.image("enter", "assets/enter.png");
     }
 
     create() {

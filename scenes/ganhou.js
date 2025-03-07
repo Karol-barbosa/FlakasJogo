@@ -11,7 +11,7 @@ export class Ganhou extends Phaser.Scene {
 
     // Carrega a imagem de fundo para a tela de vitória
     preload() {
-        this.load.image("ganhou", "../assets/ganhou.png");
+        this.load.image("ganhou", "assets/ganhou.png");
     }
       
 
